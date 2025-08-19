@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm:*)",
+      "Bash(node:*)",
+      "Bash(rmdir:*)",
+      "Bash(del pnpm-lock.yaml)",
+      "Bash(rm:*)"
+    ],
+    "deny": [],
+    "ask": [],
+    "defaultMode": "acceptEdits"
+  }
+}
